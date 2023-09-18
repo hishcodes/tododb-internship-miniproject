@@ -12,14 +12,7 @@ mongoose.connect('mongodb+srv://hishamkumbra:deXwHQLbwETcXX0M@cluster0.zyhytzl.m
 
 const todoschema = new mongoose.Schema({task:String})
 const todomodel = mongoose.model('tasks', todoschema)
-//const t1 = todomodel({task:"gaming"})
-//const t2 = todomodel({task:"studying"})
-//const t3 = todomodel({task:"playing"})
 
-//t2.save()
-//t3.save()
-
-//t1.save()
 var lists = []
 
 
